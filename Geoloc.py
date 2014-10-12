@@ -32,7 +32,7 @@ class geolocate():
 
 
 if __name__=='__main__':
-	g=geolocate('suryapet')
+	g=geolocate('newyork')
 	g.data()
 	print g.address()
 	print g.lat()
